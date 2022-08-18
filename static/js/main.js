@@ -68,7 +68,7 @@ const download = () => {
     document.body.removeChild(a)
 }
 
-fetch('/static/geojson/rivers.json')
+fetch('./static/geojson/rivers.json')
   .then(response => response.json())
   .then(geojson => {
       const getFDCValues = (feature, layer) => {

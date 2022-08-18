@@ -1,0 +1,27 @@
+body {
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leaflet-popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+#title-bar {
+    text-align: center;
+    height: 6%;
+    padding: 0;
+    margin: 0;
+}
+#map {
+    height: 94%;
+}
